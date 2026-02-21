@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://oy48j3tyjomt"]
 
 [ext_resource type="Texture2D" uid="uid://brj2oo5cat5hu" path="res://assets/sprites/menu/map/masmorra_pack/textura_papiro.jpg" id="1_mukjo"]
-[ext_resource type="Shader" uid="uid://bmpngd3qdfgij" path="res://scenes/menu/raios.gdshader" id="2_lmal0"]
-[ext_resource type="Shader" uid="uid://17e3h6futfhs" path="res://scenes/menu/wobble.gdshader" id="3_kjot6"]
+[ext_resource type="Shader" uid="uid://bmpngd3qdfgij" path="res://assets/shaders/menu/raios.gdshader" id="2_lmal0"]
+[ext_resource type="Shader" uid="uid://17e3h6futfhs" path="res://assets/shaders/menu/wobble.gdshader" id="3_kjot6"]
 [ext_resource type="Texture2D" uid="uid://ksntyve4cwh0" path="res://assets/sprites/menu/fundo/background.png" id="4_mtttx"]
 [ext_resource type="Texture2D" uid="uid://ltowf5qjpxkj" path="res://assets/sprites/menu/botoes/spr_botao_sem_carimbo.png" id="5_2yt8g"]
 [ext_resource type="FontFile" uid="uid://btcq5rh80tfiy" path="res://assets/fontes/This Cafe.ttf" id="6_fvlrg"]

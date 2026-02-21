@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://xgc8e6a4uuej"]
 
 [ext_resource type="Texture2D" uid="uid://wgkhfyybfvy4" path="res://assets/sprites/Parchment.jpg" id="1_sxf4j"]
-[ext_resource type="Script" uid="uid://d0ivtl06ccab3" path="res://scripts/map/map.gd" id="1_tqkkf"]
+[ext_resource type="Script" uid="uid://d0ivtl06ccab3" path="res://scenes/map/map.gd" id="1_tqkkf"]
 
 [node name="map" type="Node2D" unique_id=1000523082]
 script = ExtResource("1_tqkkf")

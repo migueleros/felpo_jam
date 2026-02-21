@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://b1ceo1yi112ss"]
 
 [ext_resource type="Shader" uid="uid://jc00jql1svws" path="res://assets/shaders/psx.gdshader" id="1_wr5d5"]
-[ext_resource type="Script" uid="uid://dgscdvpmnvtx1" path="res://scripts/menu/menu_3d.gd" id="2_q462l"]
+[ext_resource type="Script" uid="uid://dgscdvpmnvtx1" path="res://scenes/menu/menu_3d.gd" id="2_q462l"]
+[ext_resource type="Script" uid="uid://u2zgipgms794t" path="res://scenes/menu/menu_settings.gd" id="2_stngs"]
 [ext_resource type="PackedScene" uid="uid://oy48j3tyjomt" path="res://scenes/menu/menu_ajustes.tscn" id="3_cyy7t"]
 [ext_resource type="PackedScene" uid="uid://cisvi0epafkn6" path="res://scenes/menu/menu_principal.tscn" id="4_1x4hw"]
 [ext_resource type="Script" uid="uid://b52odwunou5mj" path="res://scenes/menu/camera_controller.gd" id="5_hux2q"]
@@ -15,7 +16,7 @@
 [ext_resource type="PackedScene" uid="uid://haikd2oquhc6" path="res://assets/sprites/menu/map/masmorra_pack/coinsMedium.gltf.glb" id="13_arvqe"]
 [ext_resource type="PackedScene" uid="uid://bvn2fumoval6g" path="res://assets/sprites/menu/map/masmorra_pack/chair.gltf.glb" id="14_4n5tw"]
 [ext_resource type="PackedScene" uid="uid://cub5xqhoil5wv" path="res://assets/sprites/menu/map/hat/Top_Hat.fbx" id="15_p4ft5"]
-[ext_resource type="Shader" uid="uid://17e3h6futfhs" path="res://scenes/menu/wobble.gdshader" id="16_rixlv"]
+[ext_resource type="Shader" uid="uid://17e3h6futfhs" path="res://assets/shaders/menu/wobble.gdshader" id="16_rixlv"]
 [ext_resource type="Texture2D" uid="uid://ciruejttbfu3i" path="res://assets/sprites/menu/fundo/w_keycap.png" id="17_chuyq"]
 [ext_resource type="Texture2D" uid="uid://cx4vor6jgmsa1" path="res://assets/sprites/menu/fundo/s_keycap.png" id="18_deb6a"]
 
@@ -1162,6 +1163,9 @@ transform = Transform3D(-9.8787744e-08, 0, 2.8, 0, 2.2600002, 0, -2.2600002, 0, 
 
 [node name="cadeira" parent="SubViewport/Menu" unique_id=214993877 instance=ExtResource("14_4n5tw")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 2.0000005, 0, -1.0000002, 0, -4.371139e-08, 11.619759, -0.4086499, -16.391384)
+
+[node name="MenuSettings" type="Node" parent="SubViewport/Menu" unique_id=112233446]
+script = ExtResource("2_stngs")
 
 [node name="Tutorial" type="Node3D" parent="." unique_id=79772438]
 

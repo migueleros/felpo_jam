@@ -8,3 +8,4 @@ enum DamageType { PIERCING, SLASH, BLUNT, FIRE, ELECTRIC, ICE }
 @export var ability_range: int = 1 
 @export var damage_type: DamageType = DamageType.SLASH
 @export var cost: int = 5
+@export var mana_cost: int = 1
