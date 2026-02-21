@@ -8,6 +8,7 @@ class_name UnitData
 
 @export_group("Stats")
 @export var max_hp: int = 10
+@export var max_mana: int = 3
 @export var move_range: int = 3
 
 @export_group("Combat")

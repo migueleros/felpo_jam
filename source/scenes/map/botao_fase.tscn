@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ce0ml2r8l4uvl"]
 
-[ext_resource type="Script" uid="uid://by0mmldnj8ogp" path="res://scripts/map/botao_fase.gd" id="1_nku3o"]
+[ext_resource type="Script" uid="uid://by0mmldnj8ogp" path="res://scenes/map/botao_fase.gd" id="1_nku3o"]
 
 [node name="botao_fase" type="TextureButton" unique_id=538961224]
 script = ExtResource("1_nku3o")
