@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cjmax75bip67h"]
 
-[ext_resource type="Script" uid="uid://qg3725w3fdb0" path="res://scripts/core/tilemap_manager.gd" id="1_1fq0p"]
+[ext_resource type="Script" uid="uid://qg3725w3fdb0" path="res://scenes/tilemap/tilemap_manager.gd" id="1_1fq0p"]
 
 [sub_resource type="TileSet" id="TileSet_1fq0p"]
 tile_shape = 1
